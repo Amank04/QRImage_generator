@@ -34,7 +34,7 @@ Before you begin, ensure you have met the following requirements:
 1. Run the application:
 
     ```bash
-    npm index.js
+    node index.js
     ```
 
 2. Go to "http://localhost:3000/".
