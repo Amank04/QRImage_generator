@@ -1,0 +1,51 @@
+h1 {
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    color: tan;
+}
+
+.container {
+    position: absolute;
+    left: 10%;
+    height: 400px;
+    width: 80%;
+    background-color: aqua;
+    position: relative;
+    border: 3px solid green;
+}
+
+form {
+    margin: 0;
+    position: absolute;
+    left: 34%;
+    top: 10%;
+
+}
+
+.inner-container {
+    background-color: white;
+    position: absolute;
+    left: 41.5%;
+    top: 30%;
+    /* height: 165px;
+    width: 165px; */
+
+}
+
+.QRreal {
+    height: 165px;
+    width: 165px;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.QRdemo {
+    height: 165px;
+    width: 165px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}

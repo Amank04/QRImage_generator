@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Image</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>
+        <b>QR Image Generator</b>
+    </h1>
+
+    <div class="container">
+        <form action="/check" method="POST" class="form">
+            <label for="fname">Enter URL:</label>
+            <input type="text" id="fname" name="url">
+            <input type="submit" id="myBtn" value="Submit">
+        </form>
+
+        <div class="inner-container">
+            <% if(locals.images) { %>
+            <img class="QRreal" src="Images/QR.png" alt="QR image">
+            <% } else { %>
+            <img class="QRdemo" src="Images/QR1.png" alt="QR image">
+            <%  } %>
+            
+        </div>
+    </div>
+
+
+</body>
+</html>
