@@ -34,10 +34,10 @@ Before you begin, ensure you have met the following requirements:
 1. Run the application:
 
     ```bash
-    npm start
+    npm index.js
     ```
 
-2. Enter URL in Terminal to get its QR image in png format.
+2. Go to "http://localhost:3000/".
 
 3. Press Enter. 
 
